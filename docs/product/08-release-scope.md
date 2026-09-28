@@ -34,7 +34,7 @@ The project does not include independent marketplace sellers, B2B commerce, in-s
 
 ## Details to settle before each relevant capability is finalized
 
-- Operating country, currency, and how any applicable tax appears in the customer price
+- Customer-facing monetary unit in Iran and how any applicable tax appears in the customer price
 - Fixed home-delivery charge amount, delivery coverage, and delivery timing promises
 - Store-pickup collection period and handling of orders that are not collected
 - Handling of a failed home-delivery attempt or an undeliverable parcel

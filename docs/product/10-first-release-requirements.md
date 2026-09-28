@@ -126,7 +126,7 @@ Digital wallets and installment payment are also absent from the first release; 
 
 ## Remaining first-release product decisions
 
-- Select the operating country and currency, and define how any applicable tax is reflected in the price customers see.
+- Choose the monetary unit shown to customers in Iran and define how any applicable tax is reflected in the price they see.
 - Set the fixed home-delivery charge amount, delivery coverage, and timing promises.
 - Set the period for collecting a pickup order and what happens if it is not collected.
 - Define what happens after a failed home-delivery attempt or an undeliverable parcel.

@@ -2,7 +2,7 @@
 
 ## Product in one paragraph
 
-Nexa Commerce serves one large consumer retailer in one country. Nexa sells consumer electronics, gaming products, and accessories from multiple brands, while remaining the only seller to the customer. Customers buy online; Nexa uses a central warehouse and physical stores to fulfill home-delivery orders or prepare store pickup. The intended product covers the journey from assortment and pricing through inventory, orders, online payment, fulfillment, cancellation, returns, and refunds.
+Nexa Commerce serves one large consumer retailer in Iran. Nexa sells consumer electronics, gaming products, and accessories from multiple brands, while remaining the only seller to the customer. Customers buy online; Nexa uses a central warehouse and physical stores to fulfill home-delivery orders or prepare store pickup. The intended product covers the journey from assortment and pricing through inventory, orders, online payment, fulfillment, cancellation, returns, and refunds.
 
 ## What customers and Nexa can do
 
