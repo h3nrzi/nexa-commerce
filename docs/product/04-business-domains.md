@@ -20,4 +20,4 @@ These domains describe the main parts of Nexa's online retail journey. They are 
 - Physical store checkout is outside the online commerce journey, although stores can supply and hand over online orders.
 - Independent marketplace sellers and B2B procurement are outside Nexa's model.
 - Customer loyalty programs and gift cards are outside the current scope.
-- Detailed policies, such as promotion eligibility, inventory allocation, cancellation windows, and return conditions, remain to be defined.
+- Some detailed policies, including promotion eligibility, home-delivery location priority, and product-category return exceptions, remain open.

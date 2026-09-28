@@ -14,7 +14,7 @@ Stores can help fulfill online orders and serve as pickup locations. Sales initi
 
 ## Product context
 
-Within this business, Nexa Commerce needs to support the customer's journey from finding an offer and placing an order through payment, fulfillment, and any later cancellation, return, or refund. Pricing, promotions, and inventory availability are part of that journey. The specific policies and capabilities in each area remain to be defined.
+Within this business, Nexa Commerce needs to support the customer's journey from finding an offer and placing an order through payment, fulfillment, and any later cancellation, return, or refund. Pricing, promotions, and inventory availability are part of that journey. The following product documents define the agreed capabilities and rules and identify the details still open.
 
 ## Current boundaries
 

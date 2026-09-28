@@ -2,7 +2,7 @@
 
 ## Purpose
 
-These examples test how the agreed product rules work together in realistic retail situations. They illustrate expected business outcomes; they do not add new policies.
+These examples test how the agreed product rules work together in realistic retail situations. They cover the overall product, including capabilities planned after the first release. They illustrate expected business outcomes; they do not add new policies.
 
 ## 1. One home-delivery order, multiple supply locations
 

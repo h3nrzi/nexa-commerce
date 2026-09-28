@@ -11,7 +11,7 @@ This is the product-level capability baseline for Nexa's online retail journey. 
 - Customers can place an order as a guest. Creating or using a customer account is optional and must not be required to complete a purchase.
 - Customers pay online when placing an order and receive confirmation of the purchase. Payment at home delivery or store pickup is outside the current scope.
 - Customers can follow the progress of an order, including its separately fulfilled parts, and seek help with delivery or pickup issues.
-- Customers can request cancellation or return, use a Nexa store or the contracted delivery company to send back an eligible item, and receive the outcome of any resulting refund. The conditions for these requests remain to be defined.
+- Customers can request cancellation or return, use a Nexa store or the contracted delivery company to send back an eligible item, and receive the outcome of any resulting refund. Agreed conditions and remaining exceptions are recorded in the business rules.
 
 ## Retail operations
 
