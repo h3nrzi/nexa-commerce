@@ -4,7 +4,7 @@
 
 Nexa is a hypothetical large retailer of consumer electronics, gaming products, and accessories in one country. It offers products from multiple brands, but customers buy from Nexa; those brands are not sellers on Nexa Commerce.
 
-Nexa serves individual consumers through online shopping. It operates multiple physical stores and fulfillment locations. Depending on the order and available locations, customers may receive their purchases through home delivery or store pickup. An order may be fulfilled in multiple parts.
+Nexa serves individual consumers through online shopping. It operates multiple physical stores and a central warehouse as fulfillment locations. Depending on the order and available locations, customers may receive their purchases through home delivery or store pickup. An order may be fulfilled in multiple parts.
 
 Home delivery is carried out by a contracted delivery company. Nexa's stores hand over orders chosen for store pickup.
 
