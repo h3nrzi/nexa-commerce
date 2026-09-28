@@ -68,6 +68,7 @@ Nexa can fulfill a home-delivery order in separate parts from the central wareho
 
 **Acceptance criteria**
 
+- Stock at the central warehouse supplies an item first; if it is unavailable there, an eligible store with stock nearest the delivery address supplies it.
 - The customer can see the progress of each part separately, including when parts are delivered at different times.
 - A part may progress independently without changing the agreed prices of other parts.
 
@@ -125,4 +126,3 @@ Digital wallets and installment payment are also absent from the first release; 
 ## Open decisions affecting this release
 
 1. What happens when the original card payment method cannot receive a refund.
-2. How Nexa prioritizes eligible locations when more than one can supply a home-delivery item.

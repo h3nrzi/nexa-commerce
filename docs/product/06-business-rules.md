@@ -46,7 +46,7 @@ A home-delivery order may be fulfilled in multiple parts supplied from the centr
 
 Nexa selects which of its locations supplies each part of a home-delivery order based on available stock. Customers choose home delivery, not the supplying warehouse or store. If an order is supplied in multiple parts, customers can follow the progress of each part separately.
 
-The priority among eligible supply locations remains open.
+For the first release, Nexa uses stock at the central warehouse for an item when it is available there. For an item unavailable at the warehouse, Nexa chooses an eligible store that has it, giving priority to the store nearest the delivery address. An order can be divided into parts when its items come from different locations.
 
 ## Agreed rule: stock commitment and unexpected shortage
 
@@ -74,6 +74,5 @@ The conditions and time limits for defective or incorrect items will be defined 
 
 ## Rules to define next
 
-- How Nexa prioritizes eligible locations for home delivery
 - The policy for defective or incorrect items, product-category exceptions, and inspection criteria
 - Promotion eligibility and combination rules, plus treatment of delivery charges for later returns
