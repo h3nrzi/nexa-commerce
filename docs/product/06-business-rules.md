@@ -10,7 +10,7 @@ This decision establishes when and where the customer pays. Accepted online paym
 
 Store pickup is offered for an item only when that item is already available at the store the customer selects. An item that would need to be transferred from the central warehouse or another location to that store is not eligible for pickup in the current scope.
 
-The policy for reserving store stock and handling a change in availability after order placement remains open.
+Stock is set aside for a paid pickup order at the selected store. An unexpected shortage is handled under the stock-shortage rule below.
 
 ## Agreed rule: one fulfillment method per order
 
@@ -22,11 +22,17 @@ A home-delivery order may be fulfilled in multiple parts supplied from the centr
 
 Nexa selects which of its locations supplies each part of a home-delivery order based on available stock. Customers choose home delivery, not the supplying warehouse or store. If an order is supplied in multiple parts, customers can follow the progress of each part separately.
 
-The priority among eligible locations and the policy for reserving stock remain open.
+The priority among eligible supply locations remains open.
+
+## Agreed rule: stock commitment and unexpected shortage
+
+When an order is placed and paid, Nexa sets aside the stock needed for that order. If an item is unexpectedly unavailable during fulfillment, Nexa first looks for another eligible supply location for a home-delivery order. A pickup order remains tied to its selected store; stock from another location is not transferred there for pickup.
+
+If Nexa cannot supply the affected item under the chosen fulfillment method, it cancels that item or order part and refunds the corresponding amount. The remaining fulfillable items continue. The detailed refund calculation and customer notification policy remain open.
 
 ## Rules to define next
 
-- How Nexa prioritizes eligible locations and handles stock changes after order placement
+- How Nexa prioritizes eligible locations for home delivery
 - When a customer can cancel an order or part of it
 - Which items can be returned, within what period, and how refunds are determined
 - How promotions apply when an order changes after placement
