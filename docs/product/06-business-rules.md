@@ -18,9 +18,15 @@ An order uses either home delivery or pickup at one selected store. A customer c
 
 A home-delivery order may be fulfilled in multiple parts supplied from the central warehouse and/or Nexa stores. Those parts may reach the customer separately.
 
+## Agreed rule: home-delivery supply locations
+
+Nexa selects which of its locations supplies each part of a home-delivery order based on available stock. Customers choose home delivery, not the supplying warehouse or store. If an order is supplied in multiple parts, customers can follow the progress of each part separately.
+
+The priority among eligible locations and the policy for reserving stock remain open.
+
 ## Rules to define next
 
-- How Nexa selects supply locations and divides a home-delivery order into parts
+- How Nexa prioritizes eligible locations and handles stock changes after order placement
 - When a customer can cancel an order or part of it
 - Which items can be returned, within what period, and how refunds are determined
 - How promotions apply when an order changes after placement
