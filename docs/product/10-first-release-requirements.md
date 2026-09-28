@@ -29,13 +29,12 @@ Customers choose either home delivery or pickup at one store for the entire orde
 
 ### R3 — Order review and price
 
-Before paying, the customer can review the selected items, fulfillment choice, item prices, any applicable discount or delivery charge, and the amount to be paid. The accepted item prices and discounts remain fixed for the paid order.
+Before paying, the customer can review the selected items, fulfillment choice, item prices, any applicable delivery charge, and the amount to be paid. The accepted item prices remain fixed for the paid order. Promotions are not part of the first release.
 
 **Acceptance criteria**
 
 - The amount shown for payment reflects the items and charges in the order review.
 - A later change to a product price does not change an already paid order.
-- If promotions are included in the first release, their effect is visible before payment; their exact scope is **Open**.
 
 ### R4 — Guest order and online payment
 
@@ -87,11 +86,11 @@ A customer can cancel the whole order while all parts remain eligible, or only e
 
 - An eligible part can be canceled while another part continues.
 - A handed-over delivery part or collected pickup item cannot be canceled through this path.
-- The remaining items keep their original prices and discounts.
+- The remaining items keep their original prices.
 
 ### R9 — Refund for cancellation or shortage
 
-Nexa refunds the amount actually paid for each canceled item after its share of any applied discount. The refund goes through the original online payment method.
+Nexa refunds the amount paid for each canceled item. The refund goes through the original online payment method.
 
 **Acceptance criteria**
 
@@ -113,12 +112,11 @@ Nexa's commercial team can maintain the assortment and prices. Inventory, wareho
 
 ## Outside the first release
 
-Customer accounts, returns after delivery or collection, and advanced promotions are planned later. Marketplace sellers, B2B commerce, in-store checkout, mixed delivery-and-pickup orders, payment at handover, loyalty programs, gift cards, cash refunds, and store credit remain outside the current product scope.
+Customer accounts, returns after delivery or collection, and promotions are planned later. Marketplace sellers, B2B commerce, in-store checkout, mixed delivery-and-pickup orders, payment at handover, loyalty programs, gift cards, cash refunds, and store credit remain outside the current product scope.
 
 ## Open decisions affecting this release
 
 1. Which online payment methods Nexa accepts, and what happens when the original method cannot receive a refund.
-2. Whether the first release includes a limited promotion offer; advanced promotion rules are planned later.
-3. How delivery charges are handled when only part of an order is canceled or refunded.
-4. How Nexa prioritizes eligible locations when more than one can supply a home-delivery item.
-5. How a guest identifies and accesses an order for tracking, cancellation, and support.
+2. How delivery charges are handled when only part of an order is canceled or refunded.
+3. How Nexa prioritizes eligible locations when more than one can supply a home-delivery item.
+4. How a guest identifies and accesses an order for tracking, cancellation, and support.

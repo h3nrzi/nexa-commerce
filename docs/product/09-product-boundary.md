@@ -18,4 +18,4 @@ Independent sellers and marketplace operations; B2B purchasing; sales completed 
 
 ## Release and policy references
 
-The first release focuses on online purchase, fulfillment, cancellation, and related refunds. Optional accounts, returns, and advanced promotions follow later. The release split is recorded in [Release Scope](08-release-scope.md). Agreed operating rules and remaining policy questions are recorded in [Business Rules](06-business-rules.md).
+The first release focuses on online purchase at ordinary prices, fulfillment, cancellation, and related refunds. Optional accounts, returns, and promotions follow later. The release split is recorded in [Release Scope](08-release-scope.md). Agreed operating rules and remaining policy questions are recorded in [Business Rules](06-business-rules.md).

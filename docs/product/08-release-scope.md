@@ -20,9 +20,9 @@ The first release should allow Nexa to complete the core purchase journey and ha
 
 - Optional customer accounts, while preserving guest purchase and guest after-sales access.
 - Returns through Nexa stores or the contracted delivery company, including assessment and refunds under the agreed return principles.
-- More advanced promotions and their eligibility and combination rules.
+- Promotions, including their eligibility and combination rules.
 
-Pricing is required in the first release. Whether it includes a limited promotion offer is still to be decided; advanced promotion behavior is planned later.
+The first release uses ordinary product prices without promotions. Promotion capabilities belong to a later release.
 
 ## Boundaries that apply throughout the current product scope
 
@@ -34,4 +34,4 @@ The project does not include independent marketplace sellers, B2B commerce, in-s
 - Treatment of delivery charges in partial refunds
 - Priority among eligible home-delivery supply locations
 - The policy for defective or incorrect items, product-category return exceptions, and return assessment
-- Promotion types, eligibility, and combination rules
+- Promotion types, eligibility, and combination rules for the later release
