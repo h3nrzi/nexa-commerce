@@ -4,7 +4,7 @@
 
 The first release lets a customer buy online as a guest, receive an order through home delivery or store pickup, follow its progress, and cancel eligible items with a refund. Nexa can operate that journey across its central warehouse, stores, and contracted delivery company.
 
-These requirements translate the agreed product scope into observable outcomes. Decisions marked **Open** below must be settled before the affected acceptance criteria are final. This document describes product behavior, not how it is built.
+These requirements translate the agreed product scope into observable outcomes. The remaining product decisions at the end must be settled before the affected acceptance criteria are final. This document describes product behavior, not how it is built.
 
 ## Customer purchase
 
@@ -102,6 +102,7 @@ Nexa refunds the amount paid for each canceled item. The refund goes through the
 - The refund concerns only canceled items or parts; other fulfillable items continue.
 - If the whole home-delivery order is canceled before any part is handed to the delivery company, the delivery charge is refunded.
 - If a part has been handed over, or the remaining items will still be delivered, the delivery charge remains.
+- If a refund to the original card fails, the refund remains pending for customer-support follow-up. After the original cardholder is verified, the amount is sent to a verified bank account in that person's name, and the customer is informed of the outcome.
 - Cash refund at a store and store credit are not offered.
 - The customer can learn the outcome of the refund.
 
@@ -123,6 +124,11 @@ Customer accounts, returns after delivery or collection, and promotions are plan
 
 Digital wallets and installment payment are also absent from the first release; no later commitment has been made for them.
 
-## Open decisions affecting this release
+## Remaining first-release product decisions
 
-1. What happens when the original card payment method cannot receive a refund.
+- Select the operating country and currency, and define how any applicable tax is reflected in the price customers see.
+- Set the fixed home-delivery charge amount, delivery coverage, and timing promises.
+- Set the period for collecting a pickup order and what happens if it is not collected.
+- Define what happens after a failed home-delivery attempt or an undeliverable parcel.
+- Define when customers are notified about shortages, cancellations, and refund outcomes, including failure of a refund to the original card.
+- Define the business checks customer support uses to confirm the original cardholder before an alternative bank-account refund.

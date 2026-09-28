@@ -23,4 +23,4 @@ This is the product-level capability baseline for Nexa's online retail journey. 
 
 ## Decisions still open
 
-The fallback when an original payment method cannot receive a refund, later payment methods, promotion eligibility, delivery-charge treatment for later returns, and some return exceptions remain open.
+Later payment methods, promotion eligibility, delivery-charge treatment for later returns, and some return exceptions remain open.

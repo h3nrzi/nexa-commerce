@@ -16,7 +16,9 @@ A guest customer provides a mobile number when ordering; email is optional. Nexa
 
 ## Agreed rule: refund destination
 
-Refunds for canceled items or accepted returns go back through the original online payment method. Cash refunds at stores and store credit are outside the current scope. The exception process if the original payment method cannot receive a refund remains open.
+Refunds for canceled items or accepted returns go back through the original online payment method. Cash refunds at stores and store credit are outside the current scope.
+
+If a refund to the original card payment fails, the refund remains pending and requires customer-support follow-up. After confirming the identity of the original cardholder, Nexa refunds the amount to a verified bank account belonging to that cardholder and informs the customer of the outcome. The refund is not treated as completed until the alternative payment succeeds.
 
 ## Agreed rule: first-release delivery charge
 

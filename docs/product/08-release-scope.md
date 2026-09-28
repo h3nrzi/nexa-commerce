@@ -15,6 +15,7 @@ The first release should allow Nexa to complete the core purchase journey and ha
 - Fulfill home-delivery orders from the central warehouse first, then from the nearest eligible stores with stock when needed; show progress for each separate part.
 - Charge one fixed delivery fee per home-delivery order regardless of parts; offer store pickup without a delivery fee.
 - Let customers cancel eligible whole orders or individual items or parts and refund the amount paid for what was canceled through the original payment method.
+- Let customer support resolve a failed refund to the original card by verifying the cardholder and arranging a refund to that person's bank account.
 - Support Nexa's commercial, inventory, warehouse, store, customer-support, and delivery-partner responsibilities needed for that journey.
 
 ## Planned after the first release
@@ -33,7 +34,11 @@ The project does not include independent marketplace sellers, B2B commerce, in-s
 
 ## Details to settle before each relevant capability is finalized
 
-- The fallback when the original card payment method cannot receive a refund
+- Operating country, currency, and how any applicable tax appears in the customer price
+- Fixed home-delivery charge amount, delivery coverage, and delivery timing promises
+- Store-pickup collection period and handling of orders that are not collected
+- Handling of a failed home-delivery attempt or an undeliverable parcel
+- Customer notification expectations for shortages, cancellation, and refund outcomes
 - Treatment of delivery charges for later returns
 - The policy for defective or incorrect items, product-category return exceptions, and return assessment
 - Promotion types, eligibility, and combination rules for the later release
