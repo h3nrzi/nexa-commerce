@@ -6,6 +6,8 @@ Nexa is a hypothetical large retailer of consumer electronics, gaming products, 
 
 Nexa serves individual consumers through online shopping. It operates multiple physical stores and fulfillment locations. Depending on the order and available locations, customers may receive their purchases through home delivery or store pickup. An order may be fulfilled in multiple parts.
 
+Home delivery is carried out by a contracted delivery company. Nexa's stores hand over orders chosen for store pickup.
+
 ## Role of stores
 
 Stores can help fulfill online orders and serve as pickup locations. Sales initiated and completed in a physical store are outside the current product scope. This keeps the initial commerce journey centered on online purchasing while still accounting for the retailer's network of locations.
