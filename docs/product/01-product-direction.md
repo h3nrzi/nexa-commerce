@@ -38,3 +38,5 @@ These are scope boundaries, not a commitment to specific features or operational
 - Seller commissions and payouts
 - Seller disputes
 - B2B procurement and commerce
+- Customer loyalty programs
+- Gift cards
