@@ -26,4 +26,4 @@ A customer receives headphones at home and decides to return them within 30 days
 
 ## 6. Guest purchase and after-sales service
 
-A customer checks out without creating an account. The customer can still follow the order's parts and request cancellation or return under the same rules as a customer with an account. Account creation is not a condition of purchase or after-sales service.
+A customer checks out with a mobile number and without creating an account. Later, the customer uses the order number and a verification code sent to that mobile number to follow the order's parts and request cancellation or return under the same rules as a customer with an account. Account creation is not a condition of purchase or after-sales service.

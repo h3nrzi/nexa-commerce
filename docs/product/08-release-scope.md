@@ -10,7 +10,7 @@ The first release should allow Nexa to complete the core purchase journey and ha
 
 - Present Nexa's assortment and prices for consumer electronics, gaming products, and accessories.
 - Show availability across the central warehouse and stores.
-- Let customers purchase as guests and pay online by card when placing an order.
+- Let customers purchase as guests using a required mobile number and pay online by card when placing an order; provide later order access by order number and a code sent to that number.
 - Offer one fulfillment method per order: home delivery or pickup at one store with the items already in stock.
 - Fulfill home-delivery orders in separate parts from eligible Nexa locations when needed, with progress visible for each part.
 - Charge one fixed delivery fee per home-delivery order regardless of parts; offer store pickup without a delivery fee.

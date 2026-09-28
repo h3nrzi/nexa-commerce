@@ -8,7 +8,7 @@ This is the product-level capability baseline for Nexa's online retail journey. 
 
 - Customers can discover Nexa's products and see the information, prices, promotions, and availability needed to make a purchase decision.
 - Customers can select products, review their purchase, and choose one fulfillment method for an order: home delivery or pickup at one available store.
-- Customers can place an order as a guest. Creating or using a customer account is optional and must not be required to complete a purchase.
+- Customers can place an order as a guest. A mobile number is required, while email is optional. Creating or using a customer account is optional and must not be required to complete a purchase. Guests can later access their orders with the order number and a verification code sent to the purchase mobile number.
 - Customers pay online when placing an order and receive confirmation of the purchase. Payment at home delivery or store pickup is outside the current scope.
 - Customers can follow the progress of an order, including its separately fulfilled parts, and seek help with delivery or pickup issues.
 - Customers can request cancellation or return, use a Nexa store or the contracted delivery company to send back an eligible item, and receive the outcome of any resulting refund. Agreed conditions and remaining exceptions are recorded in the business rules.
@@ -23,4 +23,4 @@ This is the product-level capability baseline for Nexa's online retail journey. 
 
 ## Decisions still open
 
-The fallback when an original payment method cannot receive a refund, later payment methods, promotion eligibility, supply-location priority, delivery-charge treatment for later returns, and some return exceptions remain open. Guest order servicing must work without requiring the customer to create an account; the exact experience remains open.
+The fallback when an original payment method cannot receive a refund, later payment methods, promotion eligibility, supply-location priority, delivery-charge treatment for later returns, and some return exceptions remain open.

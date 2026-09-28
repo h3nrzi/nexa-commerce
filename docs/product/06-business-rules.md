@@ -10,6 +10,10 @@ This decision establishes when and where the customer pays. The first-release de
 
 The first release accepts online card payment. Digital wallets and installment payment are not offered in that release. No decision has been made to include those methods later.
 
+## Agreed rule: guest order access
+
+A guest customer provides a mobile number when ordering; email is optional. Nexa gives the customer an order number after the purchase. To access the order later, the guest uses that order number and a verification code sent to the mobile number used for the purchase. This access supports order tracking, eligible cancellation requests, and viewing refund outcomes without requiring an account.
+
 ## Agreed rule: refund destination
 
 Refunds for canceled items or accepted returns go back through the original online payment method. Cash refunds at stores and store credit are outside the current scope. The exception process if the original payment method cannot receive a refund remains open.
