@@ -32,6 +32,8 @@ A customer checks out with a mobile number and without creating an account. Late
 
 A customer pays online for store pickup, and the whole order becomes ready at the selected store. If the customer does not collect it within three calendar days, Nexa cancels the order, releases its reserved stock, and refunds the payment to the original card or through the agreed refund fallback if needed.
 
+If the original-card refund fails, customer support matches the request to the order and payment and verifies the original cardholder and that person's ownership of the destination bank account. The refund stays pending until those checks pass and the alternative payment succeeds.
+
 ## 8. Customer unavailable for home delivery
 
 One part of a home-delivery order reaches the customer's address, but the customer is unavailable. The contracted delivery company coordinates one more attempt with the customer. If the customer is still unavailable, the parcel returns to Nexa. Nexa cancels that part and refunds the amount paid for its items. Any other order parts continue, and the order's fixed delivery charge remains.

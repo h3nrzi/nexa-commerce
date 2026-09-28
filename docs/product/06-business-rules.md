@@ -22,7 +22,7 @@ Nexa sends essential order updates by SMS to the mobile number used for the purc
 
 Refunds for canceled items or accepted returns go back through the original online payment method. Cash refunds at stores and store credit are outside the current scope.
 
-If a refund to the original card payment fails, the refund remains pending and requires customer-support follow-up. After confirming the identity of the original cardholder, Nexa refunds the amount to a verified bank account belonging to that cardholder and informs the customer of the outcome. The refund is not treated as completed until the alternative payment succeeds.
+If a refund to the original card payment fails, the refund remains pending and requires customer-support follow-up. Before using an alternative bank account, customer support matches the request to the original order and payment, confirms the identity of the original cardholder, and verifies that the destination bank account belongs to that same person. If any check is incomplete or does not match, the refund remains pending review; Nexa does not send it to another person's account. Once the checks pass, Nexa refunds the amount to the verified account and informs the customer of the outcome. The refund is not treated as completed until the alternative payment succeeds.
 
 ## Agreed rule: first-release delivery charge
 

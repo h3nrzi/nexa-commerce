@@ -19,7 +19,7 @@ The first release should allow Nexa to complete the core purchase journey and ha
 - Replace items lost or damaged with the delivery company from eligible stock without another charge; if replacement is unavailable, refund those items and also refund the delivery charge when no part of the order is delivered because of such losses or damage.
 - Charge one fixed delivery fee per home-delivery order regardless of parts; offer store pickup without a delivery fee.
 - Let customers cancel eligible whole orders or individual items or parts and refund the amount paid for what was canceled through the original payment method.
-- Let customer support resolve a failed refund to the original card by verifying the cardholder and arranging a refund to that person's bank account.
+- Let customer support resolve a failed refund to the original card by matching the order and payment, confirming the original cardholder's identity and ownership of the destination bank account, and keeping the refund pending until those checks pass and the alternative refund succeeds.
 - Support Nexa's commercial, inventory, warehouse, store, customer-support, and delivery-partner responsibilities needed for that journey.
 
 ## Planned after the first release

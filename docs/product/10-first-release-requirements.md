@@ -107,7 +107,7 @@ Nexa refunds the amount paid for each canceled item and for each lost or damaged
 - If the whole home-delivery order is canceled before any part is handed to the delivery company, the delivery charge is refunded.
 - If a part has been handed over, or the remaining items will still be delivered, the delivery charge generally remains. If no part is ultimately delivered because all its parcels were lost or damaged with the delivery company and could not be replaced, the charge is refunded.
 - If a parcel returns to Nexa after two failed attempts because the customer was unavailable, its items are refunded and the fixed delivery charge remains.
-- If a refund to the original card fails, the refund remains pending for customer-support follow-up. After the original cardholder is verified, the amount is sent to a verified bank account in that person's name, and the customer is informed of the outcome.
+- If a refund to the original card fails, it remains pending for customer-support review. Support matches the request to the original order and payment, confirms the original cardholder's identity, and verifies that the destination bank account belongs to that person. A missing or mismatched check leaves the refund pending; no refund is made to another person's account. After the checks pass, the alternative refund may proceed, and it is completed only when payment succeeds. The customer is informed of the outcome.
 - Cash refund at a store and store credit are not offered.
 - The customer can learn the outcome of the refund.
 
@@ -147,4 +147,3 @@ Digital wallets and installment payment are also absent from the first release; 
 
 - Confirm the applicable tax treatment for the products Nexa will offer in Iran.
 - Set the fixed home-delivery charge amount, delivery coverage, and timing promises.
-- Define the business checks customer support uses to confirm the original cardholder before an alternative bank-account refund.
