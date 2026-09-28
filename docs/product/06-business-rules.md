@@ -30,9 +30,14 @@ When an order is placed and paid, Nexa sets aside the stock needed for that orde
 
 If Nexa cannot supply the affected item under the chosen fulfillment method, it cancels that item or order part and refunds the corresponding amount. The remaining fulfillable items continue. The detailed refund calculation and customer notification policy remain open.
 
+## Agreed rule: customer-requested cancellation
+
+A customer can cancel a whole order while all its parts remain eligible, or cancel only the eligible items or parts of an order. For home delivery, an item or part remains eligible until it is handed to the contracted delivery company. For store pickup, it remains eligible until the customer collects it at the store.
+
+After those points, cancellation is no longer available for the affected item or part. A customer who has received it can instead request a return under the return policy. Nexa refunds the amount due for canceled items or parts; the detailed calculation remains open.
+
 ## Rules to define next
 
 - How Nexa prioritizes eligible locations for home delivery
-- When a customer can cancel an order or part of it
 - Which items can be returned, within what period, and how refunds are determined
 - How promotions apply when an order changes after placement
