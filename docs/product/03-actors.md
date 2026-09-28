@@ -13,7 +13,7 @@ This is the initial map of people and organizations involved in Nexa's online co
 | Inventory and warehouse team | Maintains availability at the central warehouse, prepares warehouse-supplied parts of orders, and hands parcels to the delivery company. |
 | Store staff | Maintains availability at a store, prepares orders supplied by that store, hands pickup orders to customers, and receives customer returns. |
 | Customer support | Helps customers with order issues and coordinates cancellation, return, and refund requests. |
-| Contracted delivery company | Collects parcels for home delivery, delivers them to customers, carries customer returns back to Nexa, and provides delivery outcomes. |
+| Contracted delivery company | Collects parcels for home delivery, coordinates a second attempt when the customer is unavailable, returns undelivered parcels to Nexa after that attempt, carries customer returns back to Nexa, and provides delivery outcomes. |
 
 ## Boundaries
 

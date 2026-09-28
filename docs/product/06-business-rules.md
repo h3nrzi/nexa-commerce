@@ -58,6 +58,10 @@ Nexa selects which of its locations supplies each part of a home-delivery order 
 
 For the first release, Nexa uses stock at the central warehouse for an item when it is available there. For an item unavailable at the warehouse, Nexa chooses an eligible store that has it, giving priority to the store nearest the delivery address. An order can be divided into parts when its items come from different locations.
 
+## Agreed rule: customer unavailable for home delivery
+
+If the customer is unavailable for the first delivery attempt, the contracted delivery company coordinates one further attempt with the customer. If that second attempt also fails because the customer is unavailable, the parcel returns to Nexa. Nexa cancels the affected order part and refunds the amount paid for its items under the agreed refund rule. Other order parts continue independently. The fixed home-delivery charge remains because the parcel was handed to the delivery company. The policy for a parcel lost or damaged while with the delivery company remains open.
+
 ## Agreed rule: stock commitment and unexpected shortage
 
 When an order is placed and paid, Nexa sets aside the stock needed for that order. If an item is unexpectedly unavailable during fulfillment, Nexa first looks for another eligible supply location for a home-delivery order. A pickup order remains tied to its selected store; stock from another location is not transferred there for pickup.

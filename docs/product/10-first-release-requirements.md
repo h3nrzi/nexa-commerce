@@ -72,6 +72,7 @@ Nexa can fulfill a home-delivery order in separate parts from the central wareho
 - Stock at the central warehouse supplies an item first; if it is unavailable there, an eligible store with stock nearest the delivery address supplies it.
 - The customer can see the progress of each part separately, including when parts are delivered at different times.
 - A part may progress independently without changing the agreed prices of other parts.
+- If the customer is unavailable at the first delivery attempt, the delivery company coordinates one further attempt. If the customer is still unavailable, the parcel returns to Nexa and only its order part is canceled; other parts continue.
 
 ### R7 — Store pickup
 
@@ -104,6 +105,7 @@ Nexa refunds the amount paid for each canceled item. The refund goes through the
 - The refund concerns only canceled items or parts; other fulfillable items continue.
 - If the whole home-delivery order is canceled before any part is handed to the delivery company, the delivery charge is refunded.
 - If a part has been handed over, or the remaining items will still be delivered, the delivery charge remains.
+- If a parcel returns to Nexa after two failed attempts because the customer was unavailable, its items are refunded and the fixed delivery charge remains.
 - If a refund to the original card fails, the refund remains pending for customer-support follow-up. After the original cardholder is verified, the amount is sent to a verified bank account in that person's name, and the customer is informed of the outcome.
 - Cash refund at a store and store credit are not offered.
 - The customer can learn the outcome of the refund.
@@ -119,6 +121,7 @@ Nexa's commercial team can maintain the assortment and prices. Inventory, wareho
 - Nexa can distinguish availability at the central warehouse from availability at each store when offering delivery or pickup.
 - Nexa can distinguish parts awaiting preparation, handed to the delivery company, ready for pickup, and completed, so the agreed cancellation cutoffs can be applied.
 - Customer support can identify which items were fulfilled, canceled, or refunded when helping a guest customer.
+- Nexa can identify the outcome of each delivery attempt and when an undelivered parcel has returned, so the affected part can be canceled and refunded.
 
 ## Outside the first release
 
@@ -130,6 +133,6 @@ Digital wallets and installment payment are also absent from the first release; 
 
 - Confirm the applicable tax treatment for the products Nexa will offer in Iran.
 - Set the fixed home-delivery charge amount, delivery coverage, and timing promises.
-- Define what happens after a failed home-delivery attempt or an undeliverable parcel.
+- Define what happens when a parcel is lost or damaged while with the delivery company.
 - Define when customers are notified about shortages, cancellations, and refund outcomes, including failure of a refund to the original card.
 - Define the business checks customer support uses to confirm the original cardholder before an alternative bank-account refund.
