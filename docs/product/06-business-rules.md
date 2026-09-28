@@ -40,16 +40,16 @@ After those points, cancellation is no longer available for the affected item or
 
 After receiving an eligible item, a customer may return it at any Nexa store or through the contracted delivery company. The choice of return channel does not depend on whether the original order was delivered to the home or collected from a store.
 
-Return eligibility and refund approval follow the policy below. The exact return window and product-category exceptions remain open.
+Return eligibility and refund approval follow the policy below. Product-category exceptions remain open.
 
 ## Agreed rule: reasons for return
 
-A customer may request a return for an item that is defective, an item that differs from what was ordered, or a change of mind. A change-of-mind return is available only within a defined return window and when the item is in good condition and complete. The length of that window and any product-category exceptions remain to be decided.
+A customer may request a return for an item that is defective, an item that differs from what was ordered, or a change of mind. For a change of mind, the customer must request the return within 30 days of receiving that individual item, whether by home delivery or store pickup. The item must be in good condition and complete. For a multi-part order, each item's 30-day period starts when that item is received.
 
-Whether a particular return request qualifies is assessed under the applicable return conditions. The detailed inspection and refund decision process remains open.
+The conditions and time limits for defective or incorrect items will be defined separately. Product-category exceptions, the detailed inspection process, and the refund decision process also remain open.
 
 ## Rules to define next
 
 - How Nexa prioritizes eligible locations for home delivery
-- The return window, product-category exceptions, inspection criteria, and refund calculation
+- The policy for defective or incorrect items, product-category exceptions, inspection criteria, and refund calculation
 - How promotions apply when an order changes after placement
