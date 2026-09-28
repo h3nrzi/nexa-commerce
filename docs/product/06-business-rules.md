@@ -36,6 +36,12 @@ A customer can cancel a whole order while all its parts remain eligible, or canc
 
 After those points, cancellation is no longer available for the affected item or part. A customer who has received it can instead request a return under the return policy. Nexa refunds the amount due for canceled items or parts; the detailed calculation remains open.
 
+## Agreed rule: return channels
+
+After receiving an eligible item, a customer may return it at any Nexa store or through the contracted delivery company. The choice of return channel does not depend on whether the original order was delivered to the home or collected from a store.
+
+Which items qualify, the time limit, and when a refund is approved remain to be defined.
+
 ## Rules to define next
 
 - How Nexa prioritizes eligible locations for home delivery
