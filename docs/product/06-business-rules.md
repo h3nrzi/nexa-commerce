@@ -4,7 +4,11 @@
 
 Customers pay online when placing an order, whether they choose home delivery or store pickup. Payment on delivery and payment at pickup are outside the current scope.
 
-This decision establishes when and where the customer pays. Accepted online payment methods and the policy for issuing refunds remain open.
+This decision establishes when and where the customer pays. Accepted online payment methods and detailed refund calculations remain open.
+
+## Agreed rule: refund destination
+
+Refunds for canceled items or accepted returns go back through the original online payment method. Cash refunds at stores and store credit are outside the current scope. The exception process if the original payment method cannot receive a refund remains open.
 
 ## Agreed rule: store pickup availability
 
