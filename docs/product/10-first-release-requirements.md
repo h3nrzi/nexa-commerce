@@ -80,6 +80,7 @@ The selected store prepares a paid pickup order using items available at that st
 **Acceptance criteria**
 
 - The customer can tell when the order is ready for collection and when it has been collected.
+- The customer has three calendar days from the time the whole order is ready to collect it. If it is not collected, Nexa cancels the order, releases its reserved stock, and refunds the amount paid.
 - No payment is requested at the store for the order.
 
 ## Cancellation and refund
@@ -94,7 +95,7 @@ A customer can cancel the whole order while all parts remain eligible, or only e
 - A handed-over delivery part or collected pickup item cannot be canceled through this path.
 - The remaining items keep their original prices.
 
-### R9 — Refund for cancellation or shortage
+### R9 — Refund for cancellation, shortage, or uncollected pickup
 
 Nexa refunds the amount paid for each canceled item. The refund goes through the original online payment method.
 
@@ -129,7 +130,6 @@ Digital wallets and installment payment are also absent from the first release; 
 
 - Confirm the applicable tax treatment for the products Nexa will offer in Iran.
 - Set the fixed home-delivery charge amount, delivery coverage, and timing promises.
-- Set the period for collecting a pickup order and what happens if it is not collected.
 - Define what happens after a failed home-delivery attempt or an undeliverable parcel.
 - Define when customers are notified about shortages, cancellations, and refund outcomes, including failure of a refund to the original card.
 - Define the business checks customer support uses to confirm the original cardholder before an alternative bank-account refund.

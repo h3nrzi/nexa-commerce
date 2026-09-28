@@ -42,6 +42,10 @@ Store pickup is offered for an item only when that item is already available at 
 
 Stock is set aside for a paid pickup order at the selected store. An unexpected shortage is handled under the stock-shortage rule below.
 
+## Agreed rule: uncollected store pickup
+
+The customer has three calendar days to collect a pickup order after the whole order is ready at the selected store. If the customer does not collect it in that period, Nexa cancels the order, releases the stock set aside for it, and refunds the amount paid under the agreed refund rules.
+
 ## Agreed rule: one fulfillment method per order
 
 An order uses either home delivery or pickup at one selected store. A customer cannot combine home delivery and store pickup within the same order in the current scope. Every item in a pickup order must be available at that selected store.

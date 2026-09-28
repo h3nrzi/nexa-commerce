@@ -27,3 +27,7 @@ A customer receives headphones at home and decides to return them within 30 days
 ## 6. Guest purchase and after-sales service
 
 A customer checks out with a mobile number and without creating an account. Later, the customer uses the order number and a verification code sent to that mobile number to follow the order's parts and request cancellation or return under the same rules as a customer with an account. Account creation is not a condition of purchase or after-sales service.
+
+## 7. Pickup order not collected
+
+A customer pays online for store pickup, and the whole order becomes ready at the selected store. If the customer does not collect it within three calendar days, Nexa cancels the order, releases its reserved stock, and refunds the payment to the original card or through the agreed refund fallback if needed.
