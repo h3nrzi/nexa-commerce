@@ -24,7 +24,7 @@ If a refund to the original card payment fails, the refund remains pending and r
 
 Home delivery has one fixed charge for the whole order, even if Nexa fulfills it in multiple parts. Store pickup has no delivery charge. The applicable charge is shown before the customer pays.
 
-If the entire home-delivery order is canceled before any part is handed to the delivery company, Nexa refunds the delivery charge along with the items. If any part has been handed over, the delivery charge remains when other items are canceled or refunded. The charge also remains when only some items are canceled and the rest will still be delivered. The amount of the fixed charge has not been chosen. Treatment of delivery charges for later return scenarios remains open.
+If the entire home-delivery order is canceled before any part is handed to the delivery company, Nexa refunds the delivery charge along with the items. Once a part has been handed over, the delivery charge generally remains when items are canceled or refunded. The agreed exception for parcels lost or damaged while with the delivery company is defined below. The charge also remains when only some items are canceled and the rest will still be delivered. The amount of the fixed charge has not been chosen. Treatment of delivery charges for later return scenarios remains open.
 
 ## Agreed rule: customer price presentation in Iran
 
@@ -60,7 +60,11 @@ For the first release, Nexa uses stock at the central warehouse for an item when
 
 ## Agreed rule: customer unavailable for home delivery
 
-If the customer is unavailable for the first delivery attempt, the contracted delivery company coordinates one further attempt with the customer. If that second attempt also fails because the customer is unavailable, the parcel returns to Nexa. Nexa cancels the affected order part and refunds the amount paid for its items under the agreed refund rule. Other order parts continue independently. The fixed home-delivery charge remains because the parcel was handed to the delivery company. The policy for a parcel lost or damaged while with the delivery company remains open.
+If the customer is unavailable for the first delivery attempt, the contracted delivery company coordinates one further attempt with the customer. If that second attempt also fails because the customer is unavailable, the parcel returns to Nexa. Nexa cancels the affected order part and refunds the amount paid for its items under the agreed refund rule. Other order parts continue independently. The fixed home-delivery charge remains because the parcel was handed to the delivery company.
+
+## Agreed rule: parcel lost or damaged during delivery
+
+If a parcel is lost or damaged while with the contracted delivery company before delivery to the customer, Nexa offers replacement of the affected items from eligible stock without an additional charge. If replacement is unavailable, Nexa refunds the amount paid for those items under the agreed refund rule. Other order parts continue independently. If no part of the order is ultimately delivered because its parcels were lost or damaged and could not be replaced, Nexa also refunds the fixed delivery charge. This exception does not change the charge rule when delivery fails because the customer is unavailable.
 
 ## Agreed rule: stock commitment and unexpected shortage
 

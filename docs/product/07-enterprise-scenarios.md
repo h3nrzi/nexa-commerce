@@ -35,3 +35,7 @@ A customer pays online for store pickup, and the whole order becomes ready at th
 ## 8. Customer unavailable for home delivery
 
 One part of a home-delivery order reaches the customer's address, but the customer is unavailable. The contracted delivery company coordinates one more attempt with the customer. If the customer is still unavailable, the parcel returns to Nexa. Nexa cancels that part and refunds the amount paid for its items. Any other order parts continue, and the order's fixed delivery charge remains.
+
+## 9. Parcel lost or damaged during delivery
+
+The delivery company reports that a parcel was lost or damaged before reaching the customer. Nexa supplies a replacement from eligible stock without another charge. If no replacement is available, Nexa refunds the amount paid for its items. Other parts of the order continue. If all parcels are lost or damaged, no replacement can be supplied, and nothing from the order is delivered, Nexa also refunds the fixed delivery charge.

@@ -73,6 +73,7 @@ Nexa can fulfill a home-delivery order in separate parts from the central wareho
 - The customer can see the progress of each part separately, including when parts are delivered at different times.
 - A part may progress independently without changing the agreed prices of other parts.
 - If the customer is unavailable at the first delivery attempt, the delivery company coordinates one further attempt. If the customer is still unavailable, the parcel returns to Nexa and only its order part is canceled; other parts continue.
+- If a parcel is lost or damaged with the delivery company before reaching the customer, Nexa offers replacement of its items from eligible stock without another charge. If replacement is unavailable, the affected items are refunded; other parts continue.
 
 ### R7 — Store pickup
 
@@ -96,15 +97,15 @@ A customer can cancel the whole order while all parts remain eligible, or only e
 - A handed-over delivery part or collected pickup item cannot be canceled through this path.
 - The remaining items keep their original prices.
 
-### R9 — Refund for cancellation, shortage, or uncollected pickup
+### R9 — Refund for cancellation, shortage, uncollected pickup, or delivery loss
 
-Nexa refunds the amount paid for each canceled item. The refund goes through the original online payment method.
+Nexa refunds the amount paid for each canceled item and for each lost or damaged item that cannot be replaced. The refund goes through the original online payment method.
 
 **Acceptance criteria**
 
 - The refund concerns only canceled items or parts; other fulfillable items continue.
 - If the whole home-delivery order is canceled before any part is handed to the delivery company, the delivery charge is refunded.
-- If a part has been handed over, or the remaining items will still be delivered, the delivery charge remains.
+- If a part has been handed over, or the remaining items will still be delivered, the delivery charge generally remains. If no part is ultimately delivered because all its parcels were lost or damaged with the delivery company and could not be replaced, the charge is refunded.
 - If a parcel returns to Nexa after two failed attempts because the customer was unavailable, its items are refunded and the fixed delivery charge remains.
 - If a refund to the original card fails, the refund remains pending for customer-support follow-up. After the original cardholder is verified, the amount is sent to a verified bank account in that person's name, and the customer is informed of the outcome.
 - Cash refund at a store and store credit are not offered.
@@ -122,6 +123,7 @@ Nexa's commercial team can maintain the assortment and prices. Inventory, wareho
 - Nexa can distinguish parts awaiting preparation, handed to the delivery company, ready for pickup, and completed, so the agreed cancellation cutoffs can be applied.
 - Customer support can identify which items were fulfilled, canceled, or refunded when helping a guest customer.
 - Nexa can identify the outcome of each delivery attempt and when an undelivered parcel has returned, so the affected part can be canceled and refunded.
+- Nexa can identify parcels reported lost or damaged during delivery and whether affected items were replaced or refunded.
 
 ## Outside the first release
 
@@ -133,6 +135,5 @@ Digital wallets and installment payment are also absent from the first release; 
 
 - Confirm the applicable tax treatment for the products Nexa will offer in Iran.
 - Set the fixed home-delivery charge amount, delivery coverage, and timing promises.
-- Define what happens when a parcel is lost or damaged while with the delivery company.
 - Define when customers are notified about shortages, cancellations, and refund outcomes, including failure of a refund to the original card.
 - Define the business checks customer support uses to confirm the original cardholder before an alternative bank-account refund.
