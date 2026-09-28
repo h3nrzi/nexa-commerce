@@ -26,6 +26,10 @@ Home delivery has one fixed charge for the whole order, even if Nexa fulfills it
 
 If the entire home-delivery order is canceled before any part is handed to the delivery company, Nexa refunds the delivery charge along with the items. If any part has been handed over, the delivery charge remains when other items are canceled or refunded. The charge also remains when only some items are canceled and the rest will still be delivered. The amount of the fixed charge has not been chosen. Treatment of delivery charges for later return scenarios remains open.
 
+## Agreed rule: customer price presentation in Iran
+
+Customer-facing amounts are shown in toman. Before payment, the order review shows the applicable tax portion separately and a final payable amount that includes it. Nexa does not assume a single tax rate or exemption for all products; the applicable treatment for its assortment remains to be defined.
+
 ## Agreed rule: fixed order prices and partial refunds
 
 The item prices and promotions applied when the customer places and pays for an order remain fixed for that order. Later changes to prices or promotions do not change what the customer agreed to pay.

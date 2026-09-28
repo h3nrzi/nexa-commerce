@@ -29,11 +29,12 @@ Customers choose either home delivery or pickup at one store for the entire orde
 
 ### R3 — Order review and price
 
-Before paying, the customer can review the selected items, fulfillment choice, item prices, any applicable delivery charge, and the amount to be paid. The accepted item prices remain fixed for the paid order. Promotions are not part of the first release.
+Before paying, the customer can review the selected items, fulfillment choice, item prices, any applicable tax and delivery charge, and the amount to be paid. Customer-facing amounts are shown in toman. The accepted item prices remain fixed for the paid order. Promotions are not part of the first release.
 
 **Acceptance criteria**
 
 - The amount shown for payment reflects the items and charges in the order review.
+- The applicable tax portion is shown separately before payment, and the final payable amount includes it. A single tax rate or exemption is not assumed for every product.
 - Store pickup has no delivery charge; home delivery has one fixed charge for the order even if it is fulfilled in parts.
 - A later change to a product price does not change an already paid order.
 
@@ -126,7 +127,7 @@ Digital wallets and installment payment are also absent from the first release; 
 
 ## Remaining first-release product decisions
 
-- Choose the monetary unit shown to customers in Iran and define how any applicable tax is reflected in the price they see.
+- Confirm the applicable tax treatment for the products Nexa will offer in Iran.
 - Set the fixed home-delivery charge amount, delivery coverage, and timing promises.
 - Set the period for collecting a pickup order and what happens if it is not collected.
 - Define what happens after a failed home-delivery attempt or an undeliverable parcel.

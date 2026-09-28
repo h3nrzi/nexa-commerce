@@ -8,6 +8,7 @@ Nexa Commerce serves one large consumer retailer in Iran. Nexa sells consumer el
 
 - Customers can buy as guests; accounts are optional in the overall product and scheduled after the first release.
 - A customer chooses home delivery or pickup at one store for each order and pays online at placement.
+- Customer-facing amounts are shown in toman; the applicable tax portion and final payable amount are visible before payment.
 - Nexa selects supply locations for home delivery and can fulfill an order in multiple parts. Pickup is offered only for items already available at the selected store.
 - Customers can follow each part of an order and cancel eligible parts. Nexa refunds canceled items based on the amount actually paid for each item.
 - In the overall product, customers can request returns through any Nexa store or the contracted delivery company. Change-of-mind requests are allowed within 30 days of receiving each item when it is in good condition and complete, subject to category exceptions still to be defined. Accepted returns are refunded to the original online payment method.

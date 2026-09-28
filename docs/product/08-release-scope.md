@@ -8,7 +8,7 @@ This plan separates the agreed product direction from the first project release.
 
 The first release should allow Nexa to complete the core purchase journey and handle cancellation before fulfillment is completed:
 
-- Present Nexa's assortment and prices for consumer electronics, gaming products, and accessories.
+- Present Nexa's assortment and prices in toman for consumer electronics, gaming products, and accessories, with the applicable tax portion and final payable amount clear before payment.
 - Show availability across the central warehouse and stores.
 - Let customers purchase as guests using a required mobile number and pay online by card when placing an order; provide later order access by order number and a code sent to that number.
 - Offer one fulfillment method per order: home delivery or pickup at one store with the items already in stock.
@@ -34,7 +34,7 @@ The project does not include independent marketplace sellers, B2B commerce, in-s
 
 ## Details to settle before each relevant capability is finalized
 
-- Customer-facing monetary unit in Iran and how any applicable tax appears in the customer price
+- Item-specific tax treatment for Nexa's assortment in Iran
 - Fixed home-delivery charge amount, delivery coverage, and delivery timing promises
 - Store-pickup collection period and handling of orders that are not collected
 - Handling of a failed home-delivery attempt or an undeliverable parcel

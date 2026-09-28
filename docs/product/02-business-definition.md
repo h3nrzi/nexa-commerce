@@ -18,7 +18,7 @@ Within this business, Nexa Commerce needs to support the customer's journey from
 
 ## Current boundaries
 
-- One retailer serves customers in Iran. The customer-facing monetary unit, tax presentation, and delivery coverage remain to be defined.
+- One retailer serves customers in Iran. Customer-facing amounts are shown in toman, and the applicable tax portion is shown separately before payment. Delivery coverage and item-specific tax treatment remain to be defined.
 - The initial assortment is consumer electronics, gaming products, and accessories. Exact categories and brands remain open.
 - Online sales, home delivery, and store pickup are in scope at the business level; physical store checkout is not.
 - Marketplace sellers and B2B purchasing remain outside the product scope.
