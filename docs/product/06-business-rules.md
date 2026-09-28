@@ -4,7 +4,7 @@
 
 Customers pay online when placing an order, whether they choose home delivery or store pickup. Payment on delivery and payment at pickup are outside the current scope.
 
-This decision establishes when and where the customer pays. The treatment of delivery charges in refunds remains open.
+This decision establishes when and where the customer pays. The first-release delivery-charge rule is defined below.
 
 ## Agreed rule: first-release payment method
 
@@ -14,11 +14,17 @@ The first release accepts online card payment. Digital wallets and installment p
 
 Refunds for canceled items or accepted returns go back through the original online payment method. Cash refunds at stores and store credit are outside the current scope. The exception process if the original payment method cannot receive a refund remains open.
 
+## Agreed rule: first-release delivery charge
+
+Home delivery has one fixed charge for the whole order, even if Nexa fulfills it in multiple parts. Store pickup has no delivery charge. The applicable charge is shown before the customer pays.
+
+If the entire home-delivery order is canceled before any part is handed to the delivery company, Nexa refunds the delivery charge along with the items. If any part has been handed over, the delivery charge remains when other items are canceled or refunded. The charge also remains when only some items are canceled and the rest will still be delivered. The amount of the fixed charge has not been chosen. Treatment of delivery charges for later return scenarios remains open.
+
 ## Agreed rule: fixed order prices and partial refunds
 
 The item prices and promotions applied when the customer places and pays for an order remain fixed for that order. Later changes to prices or promotions do not change what the customer agreed to pay.
 
-If an item is canceled or its return is accepted, Nexa refunds the amount actually paid for that item after its share of applicable discounts. The prices and discounts of the remaining items are not recalculated, even if a promotion's original threshold is no longer met. The treatment of delivery charges in a partial refund remains open.
+If an item is canceled or its return is accepted, Nexa refunds the amount actually paid for that item after its share of applicable discounts. The prices and discounts of the remaining items are not recalculated, even if a promotion's original threshold is no longer met. Delivery charges for first-release cancellations follow the rule above; their treatment for later returns remains open.
 
 ## Agreed rule: store pickup availability
 
@@ -42,7 +48,7 @@ The priority among eligible supply locations remains open.
 
 When an order is placed and paid, Nexa sets aside the stock needed for that order. If an item is unexpectedly unavailable during fulfillment, Nexa first looks for another eligible supply location for a home-delivery order. A pickup order remains tied to its selected store; stock from another location is not transferred there for pickup.
 
-If Nexa cannot supply the affected item under the chosen fulfillment method, it cancels that item or order part and refunds the corresponding amount. The remaining fulfillable items continue. The treatment of delivery charges and the customer notification policy remain open.
+If Nexa cannot supply the affected item under the chosen fulfillment method, it cancels that item or order part and refunds the corresponding amount. The remaining fulfillable items continue. The delivery-charge rule above applies; the customer notification policy remains open.
 
 ## Agreed rule: customer-requested cancellation
 
@@ -66,4 +72,4 @@ The conditions and time limits for defective or incorrect items will be defined 
 
 - How Nexa prioritizes eligible locations for home delivery
 - The policy for defective or incorrect items, product-category exceptions, and inspection criteria
-- Promotion eligibility and combination rules, plus treatment of delivery charges in partial refunds
+- Promotion eligibility and combination rules, plus treatment of delivery charges for later returns

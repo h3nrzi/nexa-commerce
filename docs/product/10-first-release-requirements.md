@@ -34,6 +34,7 @@ Before paying, the customer can review the selected items, fulfillment choice, i
 **Acceptance criteria**
 
 - The amount shown for payment reflects the items and charges in the order review.
+- Store pickup has no delivery charge; home delivery has one fixed charge for the order even if it is fulfilled in parts.
 - A later change to a product price does not change an already paid order.
 
 ### R4 — Guest order and online payment
@@ -96,8 +97,10 @@ Nexa refunds the amount paid for each canceled item. The refund goes through the
 **Acceptance criteria**
 
 - The refund concerns only canceled items or parts; other fulfillable items continue.
+- If the whole home-delivery order is canceled before any part is handed to the delivery company, the delivery charge is refunded.
+- If a part has been handed over, or the remaining items will still be delivered, the delivery charge remains.
 - Cash refund at a store and store credit are not offered.
-- The customer can learn the outcome of the refund. The treatment of delivery charges in partial refunds is **Open**.
+- The customer can learn the outcome of the refund.
 
 ## Retail operations
 
@@ -120,6 +123,5 @@ Digital wallets and installment payment are also absent from the first release; 
 ## Open decisions affecting this release
 
 1. What happens when the original card payment method cannot receive a refund.
-2. How delivery charges are handled when only part of an order is canceled or refunded.
-3. How Nexa prioritizes eligible locations when more than one can supply a home-delivery item.
-4. How a guest identifies and accesses an order for tracking, cancellation, and support.
+2. How Nexa prioritizes eligible locations when more than one can supply a home-delivery item.
+3. How a guest identifies and accesses an order for tracking, cancellation, and support.
