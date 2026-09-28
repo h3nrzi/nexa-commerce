@@ -23,4 +23,4 @@ This is the product-level capability baseline for Nexa's online retail journey. 
 
 ## Decisions still open
 
-Accepted online payment methods, promotion eligibility, supply-location priority, delivery-charge treatment in partial refunds, and some return exceptions remain open. Guest order servicing must work without requiring the customer to create an account; the exact experience remains open.
+The fallback when an original payment method cannot receive a refund, later payment methods, promotion eligibility, supply-location priority, delivery-charge treatment in partial refunds, and some return exceptions remain open. Guest order servicing must work without requiring the customer to create an account; the exact experience remains open.

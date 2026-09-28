@@ -38,12 +38,13 @@ Before paying, the customer can review the selected items, fulfillment choice, i
 
 ### R4 — Guest order and online payment
 
-A customer can place an order without creating an account and pays online when placing it. Payment at delivery or pickup is not offered.
+A customer can place an order without creating an account and pays online by card when placing it. Payment at delivery or pickup is not offered.
 
 **Acceptance criteria**
 
 - A guest can complete the purchase and receive an order confirmation after successful payment.
 - An unsuccessful or incomplete payment does not produce a confirmed paid order.
+- Digital wallets and installment payment are not offered in the first release.
 - A guest can later access the order information needed to follow its progress and request eligible after-sales help without creating an account. The exact guest access experience is **Open**.
 
 ## Order fulfillment
@@ -114,9 +115,11 @@ Nexa's commercial team can maintain the assortment and prices. Inventory, wareho
 
 Customer accounts, returns after delivery or collection, and promotions are planned later. Marketplace sellers, B2B commerce, in-store checkout, mixed delivery-and-pickup orders, payment at handover, loyalty programs, gift cards, cash refunds, and store credit remain outside the current product scope.
 
+Digital wallets and installment payment are also absent from the first release; no later commitment has been made for them.
+
 ## Open decisions affecting this release
 
-1. Which online payment methods Nexa accepts, and what happens when the original method cannot receive a refund.
+1. What happens when the original card payment method cannot receive a refund.
 2. How delivery charges are handled when only part of an order is canceled or refunded.
 3. How Nexa prioritizes eligible locations when more than one can supply a home-delivery item.
 4. How a guest identifies and accesses an order for tracking, cancellation, and support.

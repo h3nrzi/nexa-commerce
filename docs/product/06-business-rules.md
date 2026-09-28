@@ -4,7 +4,11 @@
 
 Customers pay online when placing an order, whether they choose home delivery or store pickup. Payment on delivery and payment at pickup are outside the current scope.
 
-This decision establishes when and where the customer pays. Accepted online payment methods and the treatment of delivery charges in refunds remain open.
+This decision establishes when and where the customer pays. The treatment of delivery charges in refunds remains open.
+
+## Agreed rule: first-release payment method
+
+The first release accepts online card payment. Digital wallets and installment payment are not offered in that release. No decision has been made to include those methods later.
 
 ## Agreed rule: refund destination
 
