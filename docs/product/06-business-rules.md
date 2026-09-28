@@ -4,11 +4,17 @@
 
 Customers pay online when placing an order, whether they choose home delivery or store pickup. Payment on delivery and payment at pickup are outside the current scope.
 
-This decision establishes when and where the customer pays. Accepted online payment methods and detailed refund calculations remain open.
+This decision establishes when and where the customer pays. Accepted online payment methods and the treatment of delivery charges in refunds remain open.
 
 ## Agreed rule: refund destination
 
 Refunds for canceled items or accepted returns go back through the original online payment method. Cash refunds at stores and store credit are outside the current scope. The exception process if the original payment method cannot receive a refund remains open.
+
+## Agreed rule: fixed order prices and partial refunds
+
+The item prices and promotions applied when the customer places and pays for an order remain fixed for that order. Later changes to prices or promotions do not change what the customer agreed to pay.
+
+If an item is canceled or its return is accepted, Nexa refunds the amount actually paid for that item after its share of applicable discounts. The prices and discounts of the remaining items are not recalculated, even if a promotion's original threshold is no longer met. The treatment of delivery charges in a partial refund remains open.
 
 ## Agreed rule: store pickup availability
 
@@ -32,13 +38,13 @@ The priority among eligible supply locations remains open.
 
 When an order is placed and paid, Nexa sets aside the stock needed for that order. If an item is unexpectedly unavailable during fulfillment, Nexa first looks for another eligible supply location for a home-delivery order. A pickup order remains tied to its selected store; stock from another location is not transferred there for pickup.
 
-If Nexa cannot supply the affected item under the chosen fulfillment method, it cancels that item or order part and refunds the corresponding amount. The remaining fulfillable items continue. The detailed refund calculation and customer notification policy remain open.
+If Nexa cannot supply the affected item under the chosen fulfillment method, it cancels that item or order part and refunds the corresponding amount. The remaining fulfillable items continue. The treatment of delivery charges and the customer notification policy remain open.
 
 ## Agreed rule: customer-requested cancellation
 
 A customer can cancel a whole order while all its parts remain eligible, or cancel only the eligible items or parts of an order. For home delivery, an item or part remains eligible until it is handed to the contracted delivery company. For store pickup, it remains eligible until the customer collects it at the store.
 
-After those points, cancellation is no longer available for the affected item or part. A customer who has received it can instead request a return under the return policy. Nexa refunds the amount due for canceled items or parts; the detailed calculation remains open.
+After those points, cancellation is no longer available for the affected item or part. A customer who has received it can instead request a return under the return policy. Nexa refunds the amount due for canceled items or parts under the fixed-price rule above.
 
 ## Agreed rule: return channels
 
@@ -55,5 +61,5 @@ The conditions and time limits for defective or incorrect items will be defined 
 ## Rules to define next
 
 - How Nexa prioritizes eligible locations for home delivery
-- The policy for defective or incorrect items, product-category exceptions, inspection criteria, and refund calculation
-- How promotions apply when an order changes after placement
+- The policy for defective or incorrect items, product-category exceptions, and inspection criteria
+- Promotion eligibility and combination rules, plus treatment of delivery charges in partial refunds
