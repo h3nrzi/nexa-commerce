@@ -14,6 +14,10 @@ The first release accepts online card payment. Digital wallets and installment p
 
 A guest customer provides a mobile number when ordering; email is optional. Nexa gives the customer an order number after the purchase. To access the order later, the guest uses that order number and a verification code sent to the mobile number used for the purchase. This access supports order tracking, eligible cancellation requests, and viewing refund outcomes without requiring an account.
 
+## Agreed rule: first-release customer notifications
+
+Nexa sends essential order updates by SMS to the mobile number used for the purchase. These updates cover order confirmation, the whole pickup order becoming ready, each home-delivery part being handed to the delivery company, a failed delivery attempt because the customer was unavailable, an unexpected shortage affecting the paid order, cancellation of an order or part, and refund outcomes. If a refund to the original card fails, the customer is told that it remains pending and is informed again when the alternative refund succeeds. Updates for a multi-part order identify the affected part so the customer can distinguish it from the rest of the order.
+
 ## Agreed rule: refund destination
 
 Refunds for canceled items or accepted returns go back through the original online payment method. Cash refunds at stores and store credit are outside the current scope.
@@ -70,7 +74,7 @@ If a parcel is lost or damaged while with the contracted delivery company before
 
 When an order is placed and paid, Nexa sets aside the stock needed for that order. If an item is unexpectedly unavailable during fulfillment, Nexa first looks for another eligible supply location for a home-delivery order. A pickup order remains tied to its selected store; stock from another location is not transferred there for pickup.
 
-If Nexa cannot supply the affected item under the chosen fulfillment method, it cancels that item or order part and refunds the corresponding amount. The remaining fulfillable items continue. The delivery-charge rule above applies; the customer notification policy remains open.
+If Nexa cannot supply the affected item under the chosen fulfillment method, it cancels that item or order part and refunds the corresponding amount. The remaining fulfillable items continue. The delivery-charge and customer-notification rules above apply.
 
 ## Agreed rule: customer-requested cancellation
 

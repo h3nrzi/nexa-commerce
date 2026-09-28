@@ -11,6 +11,7 @@ This is the product-level capability baseline for Nexa's online retail journey. 
 - Customers can place an order as a guest. A mobile number is required, while email is optional. Creating or using a customer account is optional and must not be required to complete a purchase. Guests can later access their orders with the order number and a verification code sent to the purchase mobile number.
 - Customers pay online when placing an order and receive confirmation of the purchase. Payment at home delivery or store pickup is outside the current scope.
 - Customers can follow the progress of an order, including its separately fulfilled parts, and seek help with delivery or pickup issues.
+- Customers receive essential updates about their purchase, fulfillment, order issues, and refunds at the mobile number used for the order.
 - Customers can request cancellation or return, use a Nexa store or the contracted delivery company to send back an eligible item, and receive the outcome of any resulting refund. Agreed conditions and remaining exceptions are recorded in the business rules.
 
 ## Retail operations

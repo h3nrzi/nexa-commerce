@@ -11,6 +11,7 @@ The first release should allow Nexa to complete the core purchase journey and ha
 - Present Nexa's assortment and prices in toman for consumer electronics, gaming products, and accessories, with the applicable tax portion and final payable amount clear before payment.
 - Show availability across the central warehouse and stores.
 - Let customers purchase as guests using a required mobile number and pay online by card when placing an order; provide later order access by order number and a code sent to that number.
+- Send essential SMS updates to the purchase mobile number for order confirmation, pickup readiness, handover of each delivery part, a failed delivery attempt, shortage, cancellation, and refund outcomes.
 - Offer one fulfillment method per order: home delivery or pickup at one store with the items already in stock.
 - Cancel and refund a pickup order that remains uncollected three calendar days after it becomes ready, and release its reserved stock.
 - Fulfill home-delivery orders from the central warehouse first, then from the nearest eligible stores with stock when needed; show progress for each separate part.
@@ -39,7 +40,6 @@ The project does not include independent marketplace sellers, B2B commerce, in-s
 
 - Item-specific tax treatment for Nexa's assortment in Iran
 - Fixed home-delivery charge amount, delivery coverage, and delivery timing promises
-- Customer notification expectations for shortages, cancellation, and refund outcomes
 - Treatment of delivery charges for later returns
 - The policy for defective or incorrect items, product-category return exceptions, and return assessment
 - Promotion types, eligibility, and combination rules for the later release

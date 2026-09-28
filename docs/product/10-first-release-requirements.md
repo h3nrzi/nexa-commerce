@@ -125,6 +125,18 @@ Nexa's commercial team can maintain the assortment and prices. Inventory, wareho
 - Nexa can identify the outcome of each delivery attempt and when an undelivered parcel has returned, so the affected part can be canceled and refunded.
 - Nexa can identify parcels reported lost or damaged during delivery and whether affected items were replaced or refunded.
 
+### R11 — Essential customer notifications
+
+Nexa sends the customer essential SMS updates at the mobile number used for the purchase as the order progresses and issues are resolved.
+
+**Acceptance criteria**
+
+- The customer receives an SMS when the order is confirmed and when the whole pickup order is ready for collection.
+- For home delivery, the customer receives an SMS when each order part is handed to the delivery company and when an attempt fails because the customer is unavailable.
+- The customer receives an SMS when an unexpected shortage affects the paid order and when an order or part is canceled.
+- The customer receives an SMS about the outcome of a refund. If the original-card refund fails, the customer is told it is pending and receives a further update when the alternative refund succeeds.
+- An update about one part of a multi-part order identifies that part without implying that the other parts have the same status.
+
 ## Outside the first release
 
 Customer accounts, returns after delivery or collection, and promotions are planned later. Marketplace sellers, B2B commerce, in-store checkout, mixed delivery-and-pickup orders, payment at handover, loyalty programs, gift cards, cash refunds, and store credit remain outside the current product scope.
@@ -135,5 +147,4 @@ Digital wallets and installment payment are also absent from the first release; 
 
 - Confirm the applicable tax treatment for the products Nexa will offer in Iran.
 - Set the fixed home-delivery charge amount, delivery coverage, and timing promises.
-- Define when customers are notified about shortages, cancellations, and refund outcomes, including failure of a refund to the original card.
 - Define the business checks customer support uses to confirm the original cardholder before an alternative bank-account refund.
