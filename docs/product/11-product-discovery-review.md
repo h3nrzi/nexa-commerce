@@ -13,7 +13,7 @@ The agreed product behavior is documented without choosing a technical solution.
 | Product-specific tax treatment | Confirm the applicable treatment for the products Nexa will actually sell in Iran, so the tax portion and final payable amount can be presented accurately. No common rate or exemption has been assumed. |
 | Fixed home-delivery charge | The working amount is 150,000 toman per home-delivery order in Tehran or Karaj, regardless of parts. Validate or revise this illustrative amount against the contracted carrier's terms before launch. The rules for when it is retained or refunded are already agreed. |
 | Address coverage | Confirm which addresses within Tehran and Karaj the contracted delivery company will serve in the first release. Being in one of those cities alone does not make an address eligible. |
-| Delivery windows | Confirm the estimated windows that can be shown for eligible addresses before payment. |
+| Delivery windows | The working estimate for normal home delivery is two to four business days from paid-order confirmation. A split order shows a separate estimate for each part as its plan becomes known. Validate or revise the estimate with the carrier and confirm the business-day calendar before launch; it is not a guaranteed date. |
 
 These inputs should be reflected in the [first-release requirements](10-first-release-requirements.md) and checked against the [business rules](06-business-rules.md) before the affected acceptance criteria are treated as final.
 

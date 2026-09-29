@@ -37,7 +37,7 @@ Before paying, the customer can review the selected items, fulfillment choice, i
 - The amount shown for payment reflects the items and charges in the order review.
 - The applicable tax portion is shown separately before payment, and the final payable amount includes it. A single tax rate or exemption is not assumed for every product.
 - Store pickup has no delivery charge; the provisional home-delivery charge is 150,000 toman for the order even if it is fulfilled in parts. This amount requires validation before launch.
-- Before payment, the customer can see whether home delivery is available for the chosen address and, for an eligible address, its estimated delivery window.
+- Before payment, the customer can see whether home delivery is available for the chosen address and, for an eligible address, a provisional estimate of two to four business days from paid-order confirmation. The estimate requires validation before launch and is not a guaranteed delivery date.
 - A later change to a product price does not change an already paid order.
 
 ### R4 — Guest order and online payment
@@ -72,7 +72,7 @@ Nexa can fulfill a home-delivery order in separate parts from the central wareho
 **Acceptance criteria**
 
 - Stock at the central warehouse supplies an item first; if it is unavailable there, an eligible store with stock nearest the delivery address supplies it.
-- The customer can see the progress of each part separately, including when parts are delivered at different times.
+- The customer can see the progress of each part separately, including when parts are delivered at different times; each part has its own visible estimated delivery window as its fulfillment plan becomes known.
 - A part may progress independently without changing the agreed prices of other parts.
 - If the customer is unavailable at the first delivery attempt, the delivery company coordinates one further attempt. If the customer is still unavailable, the parcel returns to Nexa and only its order part is canceled; other parts continue.
 - If a parcel is lost or damaged with the delivery company before reaching the customer, Nexa offers replacement of its items from eligible stock without another charge. If replacement is unavailable, the affected items are refunded; other parts continue.
@@ -148,4 +148,4 @@ Digital wallets and installment payment are also absent from the first release; 
 ## Remaining first-release product decisions
 
 - Confirm the applicable tax treatment for the products Nexa will offer in Iran.
-- Validate or revise the provisional 150,000-toman home-delivery charge against the carrier's terms, and confirm exact address coverage within Tehran and Karaj and estimated delivery windows for launch.
+- Validate or revise the provisional 150,000-toman home-delivery charge and two-to-four-business-day estimate against the carrier's terms; confirm exact address coverage within Tehran and Karaj and the business-day calendar for launch.

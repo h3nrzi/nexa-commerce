@@ -32,7 +32,9 @@ If the entire home-delivery order is canceled before any part is handed to the d
 
 ## Agreed rule: first-release delivery coverage and timing
 
-In the first release, Nexa offers home delivery in Tehran and Karaj only to addresses for which the contracted delivery company has confirmed coverage. Before payment, the customer can see whether home delivery is available for the chosen address and, if it is available, the estimated delivery window. An address outside these cities or outside confirmed carrier coverage is not eligible for home delivery. The exact address coverage and delivery windows will be set before launch.
+In the first release, Nexa offers home delivery in Tehran and Karaj only to addresses for which the contracted delivery company has confirmed coverage. Before payment, the customer can see whether home delivery is available for the chosen address and, if it is available, the estimated delivery window. An address outside these cities or outside confirmed carrier coverage is not eligible for home delivery.
+
+As a working assumption for normal home delivery, the estimated window is two to four business days after confirmation of the paid order. The customer sees this estimate before payment. If the order is fulfilled in multiple parts, each part has its own visible estimated window as its fulfillment plan becomes known. These windows are estimates, not guaranteed delivery dates, and must be validated against the carrier's service before launch. Exact address coverage and the business-day calendar also remain to be confirmed.
 
 ## Agreed rule: customer price presentation in Iran
 
