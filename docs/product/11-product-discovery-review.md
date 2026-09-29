@@ -11,7 +11,7 @@ The agreed product behavior is documented without choosing a technical solution.
 | Input | Decision needed before the affected requirement is final |
 | --- | --- |
 | Product-specific tax treatment | Confirm the applicable treatment for the products Nexa will actually sell in Iran, so the tax portion and final payable amount can be presented accurately. No common rate or exemption has been assumed. |
-| Fixed home-delivery charge | Choose the amount of the one charge shown to customers for a home-delivery order. The rules for when it is retained or refunded are already agreed. |
+| Fixed home-delivery charge | The working amount is 150,000 toman per home-delivery order in Tehran or Karaj, regardless of parts. Validate or revise this illustrative amount against the contracted carrier's terms before launch. The rules for when it is retained or refunded are already agreed. |
 | Address coverage | Confirm which addresses within Tehran and Karaj the contracted delivery company will serve in the first release. Being in one of those cities alone does not make an address eligible. |
 | Delivery windows | Confirm the estimated windows that can be shown for eligible addresses before payment. |
 

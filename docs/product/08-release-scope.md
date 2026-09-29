@@ -18,7 +18,7 @@ The first release should allow Nexa to complete the core purchase journey, handl
 - Fulfill home-delivery orders from the central warehouse first, then from the nearest eligible stores with stock when needed; show progress for each separate part.
 - Coordinate one further delivery attempt if the customer is unavailable; after a second failed attempt, return the affected parcel to Nexa, cancel its order part, and refund its items while retaining the fixed delivery charge.
 - Replace items lost or damaged with the delivery company from eligible stock without another charge; if replacement is unavailable, refund those items and also refund the delivery charge when no part of the order is delivered because of such losses or damage.
-- Charge one fixed delivery fee per home-delivery order regardless of parts; offer store pickup without a delivery fee.
+- Use a provisional customer delivery fee of 150,000 toman for each home-delivery order in Tehran or Karaj regardless of parts; offer store pickup without a delivery fee. Validate the amount against the delivery company's terms before launch.
 - Let customers cancel eligible whole orders or individual items or parts and refund the amount paid for what was canceled through the original payment method.
 - Let customer support resolve a failed refund to the original card by matching the order and payment, confirming the original cardholder's identity and ownership of the destination bank account, and keeping the refund pending until those checks pass and the alternative refund succeeds.
 - Support Nexa's commercial, inventory, warehouse, store, customer-support, and delivery-partner responsibilities needed for that journey.
@@ -40,7 +40,7 @@ The project does not include independent marketplace sellers, B2B commerce, in-s
 ## Details to settle before each relevant capability is finalized
 
 - Item-specific tax treatment for Nexa's assortment in Iran
-- Fixed home-delivery charge amount, exact address coverage within Tehran and Karaj, and estimated delivery windows for launch
+- Validation of the provisional home-delivery charge against the carrier's terms, exact address coverage within Tehran and Karaj, and estimated delivery windows for launch
 - Treatment of delivery charges for later returns
 - The policy for defective or incorrect items, product-category return exceptions, and return assessment
 - Promotion types, eligibility, and combination rules for the later release

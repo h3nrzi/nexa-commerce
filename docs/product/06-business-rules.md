@@ -26,9 +26,9 @@ If a refund to the original card payment fails, the refund remains pending and r
 
 ## Agreed rule: first-release delivery charge
 
-Home delivery has one fixed charge for the whole order, even if Nexa fulfills it in multiple parts. Store pickup has no delivery charge. The applicable charge is shown before the customer pays.
+As a working assumption for the first release, home delivery in Tehran or Karaj has a fixed customer charge of 150,000 toman for the whole order, even if Nexa fulfills it in multiple parts. Store pickup has no delivery charge. The applicable charge is shown before the customer pays. This illustrative amount must be checked against the contracted delivery company's actual terms before launch.
 
-If the entire home-delivery order is canceled before any part is handed to the delivery company, Nexa refunds the delivery charge along with the items. Once a part has been handed over, the delivery charge generally remains when items are canceled or refunded. The agreed exception for parcels lost or damaged while with the delivery company is defined below. The charge also remains when only some items are canceled and the rest will still be delivered. The amount of the fixed charge has not been chosen. Treatment of delivery charges for later return scenarios remains open.
+If the entire home-delivery order is canceled before any part is handed to the delivery company, Nexa refunds the delivery charge along with the items. Once a part has been handed over, the delivery charge generally remains when items are canceled or refunded. The agreed exception for parcels lost or damaged while with the delivery company is defined below. The charge also remains when only some items are canceled and the rest will still be delivered. Treatment of delivery charges for later return scenarios remains open.
 
 ## Agreed rule: first-release delivery coverage and timing
 

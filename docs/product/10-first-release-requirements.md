@@ -36,7 +36,7 @@ Before paying, the customer can review the selected items, fulfillment choice, i
 
 - The amount shown for payment reflects the items and charges in the order review.
 - The applicable tax portion is shown separately before payment, and the final payable amount includes it. A single tax rate or exemption is not assumed for every product.
-- Store pickup has no delivery charge; home delivery has one fixed charge for the order even if it is fulfilled in parts.
+- Store pickup has no delivery charge; the provisional home-delivery charge is 150,000 toman for the order even if it is fulfilled in parts. This amount requires validation before launch.
 - Before payment, the customer can see whether home delivery is available for the chosen address and, for an eligible address, its estimated delivery window.
 - A later change to a product price does not change an already paid order.
 
@@ -148,4 +148,4 @@ Digital wallets and installment payment are also absent from the first release; 
 ## Remaining first-release product decisions
 
 - Confirm the applicable tax treatment for the products Nexa will offer in Iran.
-- Set the fixed home-delivery charge amount, exact address coverage within Tehran and Karaj, and estimated delivery windows for launch.
+- Validate or revise the provisional 150,000-toman home-delivery charge against the carrier's terms, and confirm exact address coverage within Tehran and Karaj and estimated delivery windows for launch.
