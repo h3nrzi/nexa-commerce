@@ -30,6 +30,10 @@ Home delivery has one fixed charge for the whole order, even if Nexa fulfills it
 
 If the entire home-delivery order is canceled before any part is handed to the delivery company, Nexa refunds the delivery charge along with the items. Once a part has been handed over, the delivery charge generally remains when items are canceled or refunded. The agreed exception for parcels lost or damaged while with the delivery company is defined below. The charge also remains when only some items are canceled and the rest will still be delivered. The amount of the fixed charge has not been chosen. Treatment of delivery charges for later return scenarios remains open.
 
+## Agreed rule: first-release delivery coverage and timing
+
+Nexa offers home delivery only to addresses for which the contracted delivery company has confirmed coverage. Before payment, the customer can see whether home delivery is available for the chosen address and, if it is available, the estimated delivery window. An address outside confirmed coverage is not eligible for home delivery. The exact served cities and delivery windows will be set before launch.
+
 ## Agreed rule: customer price presentation in Iran
 
 Customer-facing amounts are shown in toman. Before payment, the order review shows the applicable tax portion separately and a final payable amount that includes it. Nexa does not assume a single tax rate or exemption for all products; the applicable treatment for its assortment remains to be defined.

@@ -26,6 +26,7 @@ Customers choose either home delivery or pickup at one store for the entire orde
 - Pickup at a store is offered only when every item in the order is already available at that store.
 - The customer cannot combine delivery and pickup in one order or request a transfer to make pickup available.
 - For home delivery, Nexa chooses supply locations; the customer does not select them.
+- Home delivery is offered for a chosen address only when the contracted delivery company has confirmed coverage there.
 
 ### R3 — Order review and price
 
@@ -36,6 +37,7 @@ Before paying, the customer can review the selected items, fulfillment choice, i
 - The amount shown for payment reflects the items and charges in the order review.
 - The applicable tax portion is shown separately before payment, and the final payable amount includes it. A single tax rate or exemption is not assumed for every product.
 - Store pickup has no delivery charge; home delivery has one fixed charge for the order even if it is fulfilled in parts.
+- Before payment, the customer can see whether home delivery is available for the chosen address and, for an eligible address, its estimated delivery window.
 - A later change to a product price does not change an already paid order.
 
 ### R4 — Guest order and online payment
@@ -146,4 +148,4 @@ Digital wallets and installment payment are also absent from the first release; 
 ## Remaining first-release product decisions
 
 - Confirm the applicable tax treatment for the products Nexa will offer in Iran.
-- Set the fixed home-delivery charge amount, delivery coverage, and timing promises.
+- Set the fixed home-delivery charge amount, exact served cities, and estimated delivery windows for launch.
