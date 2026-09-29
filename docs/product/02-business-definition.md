@@ -18,7 +18,7 @@ Within this business, Nexa Commerce needs to support the customer's journey from
 
 ## Current boundaries
 
-- One retailer serves customers in Iran. Customer-facing amounts are shown in toman, and the applicable tax portion is shown separately before payment. Home delivery is offered only where the contracted delivery company has confirmed coverage; the exact served locations and item-specific tax treatment remain to be defined.
+- One retailer serves customers in Iran. Customer-facing amounts are shown in toman, and the applicable tax portion is shown separately before payment. The first release offers home delivery in Tehran and Karaj only at addresses with confirmed carrier coverage; exact address coverage and item-specific tax treatment remain to be defined.
 - The initial assortment is consumer electronics, gaming products, and accessories. Exact categories and brands remain open.
 - Online sales, home delivery, and store pickup are in scope at the business level; physical store checkout is not.
 - Marketplace sellers and B2B purchasing remain outside the product scope.

@@ -13,7 +13,7 @@ The first release should allow Nexa to complete the core purchase journey and ha
 - Let customers purchase as guests using a required mobile number and pay online by card when placing an order; provide later order access by order number and a code sent to that number.
 - Send essential SMS updates to the purchase mobile number for order confirmation, pickup readiness, handover of each delivery part, a failed delivery attempt, shortage, cancellation, and refund outcomes.
 - Offer one fulfillment method per order: home delivery or pickup at one store with the items already in stock.
-- Offer home delivery only to addresses with confirmed carrier coverage, and show its availability and estimated delivery window before payment.
+- Offer home delivery in Tehran and Karaj only to addresses with confirmed carrier coverage, and show its availability and estimated delivery window before payment.
 - Cancel and refund a pickup order that remains uncollected three calendar days after it becomes ready, and release its reserved stock.
 - Fulfill home-delivery orders from the central warehouse first, then from the nearest eligible stores with stock when needed; show progress for each separate part.
 - Coordinate one further delivery attempt if the customer is unavailable; after a second failed attempt, return the affected parcel to Nexa, cancel its order part, and refund its items while retaining the fixed delivery charge.
@@ -40,7 +40,7 @@ The project does not include independent marketplace sellers, B2B commerce, in-s
 ## Details to settle before each relevant capability is finalized
 
 - Item-specific tax treatment for Nexa's assortment in Iran
-- Fixed home-delivery charge amount, exact served cities, and estimated delivery windows for launch
+- Fixed home-delivery charge amount, exact address coverage within Tehran and Karaj, and estimated delivery windows for launch
 - Treatment of delivery charges for later returns
 - The policy for defective or incorrect items, product-category return exceptions, and return assessment
 - Promotion types, eligibility, and combination rules for the later release

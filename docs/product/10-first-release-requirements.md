@@ -26,7 +26,7 @@ Customers choose either home delivery or pickup at one store for the entire orde
 - Pickup at a store is offered only when every item in the order is already available at that store.
 - The customer cannot combine delivery and pickup in one order or request a transfer to make pickup available.
 - For home delivery, Nexa chooses supply locations; the customer does not select them.
-- Home delivery is offered for a chosen address only when the contracted delivery company has confirmed coverage there.
+- Home delivery is offered only for chosen addresses in Tehran or Karaj with confirmed coverage from the contracted delivery company.
 
 ### R3 — Order review and price
 
@@ -148,4 +148,4 @@ Digital wallets and installment payment are also absent from the first release; 
 ## Remaining first-release product decisions
 
 - Confirm the applicable tax treatment for the products Nexa will offer in Iran.
-- Set the fixed home-delivery charge amount, exact served cities, and estimated delivery windows for launch.
+- Set the fixed home-delivery charge amount, exact address coverage within Tehran and Karaj, and estimated delivery windows for launch.

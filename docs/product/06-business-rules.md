@@ -32,7 +32,7 @@ If the entire home-delivery order is canceled before any part is handed to the d
 
 ## Agreed rule: first-release delivery coverage and timing
 
-Nexa offers home delivery only to addresses for which the contracted delivery company has confirmed coverage. Before payment, the customer can see whether home delivery is available for the chosen address and, if it is available, the estimated delivery window. An address outside confirmed coverage is not eligible for home delivery. The exact served cities and delivery windows will be set before launch.
+In the first release, Nexa offers home delivery in Tehran and Karaj only to addresses for which the contracted delivery company has confirmed coverage. Before payment, the customer can see whether home delivery is available for the chosen address and, if it is available, the estimated delivery window. An address outside these cities or outside confirmed carrier coverage is not eligible for home delivery. The exact address coverage and delivery windows will be set before launch.
 
 ## Agreed rule: customer price presentation in Iran
 
