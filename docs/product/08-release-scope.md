@@ -6,7 +6,7 @@ This plan separates the agreed product direction from the first project release.
 
 ## First release: online purchase through fulfillment
 
-The first release should allow Nexa to complete the core purchase journey and handle cancellation before fulfillment is completed:
+The first release should allow Nexa to complete the core purchase journey, handle eligible customer cancellation, and resolve fulfillment exceptions:
 
 - Present Nexa's assortment and prices in toman for consumer electronics, gaming products, and accessories, with the applicable tax portion and final payable amount clear before payment.
 - Show availability across the central warehouse and stores.

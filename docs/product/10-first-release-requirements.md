@@ -105,7 +105,7 @@ Nexa refunds the amount paid for each canceled item and for each lost or damaged
 
 **Acceptance criteria**
 
-- The refund concerns only canceled items or parts; other fulfillable items continue.
+- The refund concerns only canceled items or parts and lost or damaged items that cannot be replaced; other fulfillable items continue.
 - If the whole home-delivery order is canceled before any part is handed to the delivery company, the delivery charge is refunded.
 - If a part has been handed over, or the remaining items will still be delivered, the delivery charge generally remains. If no part is ultimately delivered because all its parcels were lost or damaged with the delivery company and could not be replaced, the charge is refunded.
 - If a parcel returns to Nexa after two failed attempts because the customer was unavailable, its items are refunded and the fixed delivery charge remains.
